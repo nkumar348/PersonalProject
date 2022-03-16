@@ -1,0 +1,36 @@
+<html>
+  <header>
+    <link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teen Tech Support</title>
+    <link rel="stylesheet" href="mainpage.css"/>
+
+    <script>
+    var prevScrollpos = window.pageYOffset; // citation: w3schools.com
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+
+    </script>
+  </header>
+
+  <body>
+    <nav id="navbar" class="navbar">
+      <button id="home" onclick="mainpage.html">Teen Tech Support</button>
+      <a class="link" target="_blank" href="about.html">About</a>
+      <a class="link" target="_blank" href="services.html">Services</a>
+      <a class="link" target="_blank" href="clients.html">Testimonials</a>
+      <a class="link" target="_blank" href="contact.html">Contact</a>
+    </nav>
+    <img src="ttw.png">
+    <center><h2>Welcome to Teen Tech Support, the free site for computer help.</h2></center>
+
+
+  </body>
+</html>

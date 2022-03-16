@@ -1,0 +1,124 @@
+#navbar {
+  background-color: midnightblue; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  font-family: courier, monospace;
+  overflow: hidden;
+}
+
+#navbar a.link {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+
+button {
+  background-color: midnightblue;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding-left: 15px;
+  text-decoration: none;
+  outline-color: #333;
+  outline-style: none;
+  border: none;
+  font-size: 16px;
+  padding: 15px;
+  font-family: courier, monospace;
+}
+
+button:hover {
+  background-color: cornsilk;
+  color: #912B10;
+  font-weight: bold;
+  border-bottom: 3px solid olivedrab;
+}
+
+button.active{
+  border-bottom: 3px solid olivedrab;
+}
+
+#navbar a.link:hover {
+  background-color: cornsilk;
+  color: #912B10;
+  font-weight: bold;
+  border-bottom: 3px solid olivedrab;
+}
+
+#navbar a.link.active{
+  border-bottom: 3px solid olivedrab;
+}
+
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+  margin-left: 360px;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  float:left;
+  margin-right: 40px;
+}
+
+.email {
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  float: left;
+}
+
+.phone {
+  margin-left: 360px;
+  width: 640px;
+  height: 40px;
+  font-size: 20px;
+  float:left;
+  margin-right: 40px;
+}
+
+.organization {
+  margin-left: 360px;
+  width: 640px;
+  height: 40px;
+  font-size: 20px;
+  float:left;
+  margin-right: 40px;
+}
+
+.help {
+  overflow: visible;
+  margin-left: 360px;
+  width: 640px;
+  height: 100px;
+  font-size: 20px;
+  float:left;
+  margin-right: 40px;
+  text-align: left;
+
+}
+
+body{
+  background: tomato;
+}
+
+h1{
+  color: #0A0746;
+  font-family: serif;
+}
+
+p{
+  color: #0A0746;
+  font-family: serif;
+  font-size: 20px;
+}

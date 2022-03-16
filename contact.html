@@ -1,0 +1,48 @@
+<html>
+  <header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tech Help for Seniors</title>
+    <link rel="stylesheet" href="contact.css"/>
+
+  <script>
+    var prevScrollpos = window.pageYOffset; // citation: w3schools.com
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+
+    </script>
+  </header>
+
+  <body>
+          <!--<a id="logo" href="mainpage.html"><button><img src="tech.png"/></button></a> -->
+    <nav id="navbar" class="navbar">
+    <a href="mainpage.html"><button>Teen Tech Support</button>
+
+      <a class="link" href="about.html">About</a>
+      <a class="link" href="services.html">Services</a>
+      <a class="link" href="clients.html">Testimonials</a>
+      <a class="link" href="contact.html">Contact</a>
+    </nav>
+<br><br><br><br><br><br>
+    <center><h1>Contact Us</h1>
+    <p>Questions about technology? You've come to the right place.</p>
+    </center>
+    <form><input class="name" type="text" name="name" placeholder="Name"/></form>
+    <form><input class="email" type="text" name="email" placeholder="Email Address*"/></form>
+    <br><br><br><br>
+    <form><input class="phone" type="text" name="phone" placeholder="Phone Number*"/></form>
+    <br><br><br>
+    <form><input class="help" type="text" name="help" placeholder="How can we help you?"/></form>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <center><p>Phone: 402-850-0117</p>
+    <p>Located in Omaha, Nebraska</p></center>
+
+
+  </body>
+</html>
