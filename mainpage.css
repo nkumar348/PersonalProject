@@ -18,7 +18,7 @@
   border-bottom: 3px solid transparent;
 }
 
-button {
+#home {
   background-color: midnightblue;
   float: left;
   display: block;
@@ -34,14 +34,14 @@ button {
   font-family: courier, monospace;
 }
 
-button:hover {
+#home:hover {
   background-color: cornsilk;
   color: #912B10;
   font-weight: bold;
   border-bottom: 3px solid olivedrab;
 }
 
-button.active{
+#home.active{
   border-bottom: 3px solid olivedrab;
 }
 
@@ -62,20 +62,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
-  height: 847px;
-  width: 100%
+#image {
+  height: 100%;
+  width: 100%;
   object-fit: cover;
-
-}
-
-h2 {
-  background-color: navy;
-  padding: 10px;
-  margin: 0px;
-  color: white;
-}
-
-p{
 
 }
