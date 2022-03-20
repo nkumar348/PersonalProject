@@ -69,25 +69,13 @@ body {
 }
 
 .intro2 {
-  margin-left: 60px;
+  font-size: 20px;
   font-family: Georgia, serif;
-  margin-right: 650px;
+
 }
 
 .values {
   font-family: serif;
-}
-
-.founder{
-  text-align: right;
-  margin-right: 100px;
-  font-family: serif;
-}
-
-.name{
-  margin-left: 800px;
-  margin-right: 60px;
-  font-family: Georgia, serif;
 }
 
 div{
@@ -128,4 +116,26 @@ div{
   background-color: Black;
   color: white;
   flex-basis: 10.5%;
+}
+
+img{
+  width: 250px;
+  float: left;
+  margin-left: 100px;
+  height: 65%;
+  width: 60%;
+  margin-bottom: 150px;
+  margin-right: 20px;
+}
+
+.name{
+  display: inline;
+  font-family: Georgia, serif;
+  align: right;
+  font-size: 20px;
+}
+
+.founder{
+  font-family: Georgia, serif;
+  margin-left: 1000px;
 }
