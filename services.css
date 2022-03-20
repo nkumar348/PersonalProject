@@ -58,7 +58,7 @@ button.active{
 
 body {
   margin: 0;
-  background-color: mintcream;
+  background-color: steelblue;
   font-family: Georgia, sans-serif;
 }
 
@@ -66,4 +66,22 @@ body {
   display: inline;
   float: left;
   clear: left;
+}
+
+p{
+  color: white;
+}
+
+h1, h2{
+  color: white;
+}
+
+#laptop{
+  width: 30%;
+  height: 50%;
+}
+
+#phone{
+  width: 30%;
+  height: 50%;
 }
